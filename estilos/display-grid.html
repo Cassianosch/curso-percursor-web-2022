@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso do Programador.cs</title>
+    <link rel="icon" href="../favicon.ico">
+
+    <style>
+        .header {
+            grid-area: header;
+            background-color: orange;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: blue;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: red;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: green;
+        }
+
+
+        .grid {
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(3, 100px);
+            grid-template-areas:
+                "header header header sidebar"
+                "main main . sidebar"
+                "footer footer footer footer";
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid">
+        <div class="header">header</div>
+        <div class="main">main</div>
+        <div class="sidebar">sidebar</div>
+        <div class="footer">footer</div>
+    </div>
+</body>
+
+</html>
