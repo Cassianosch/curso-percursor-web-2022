@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso do Programador.cs</title>
+    <link rel="icon" href="../favicon.ico">
+
+</head>
+
+<body>
+
+    <h1 id="titulo_id">Programado CS - 1</h1>
+    <h1 class="titulo_classe">Programado CS - 2</h1>
+    <h1 class="titulo_classe">Programado CS - 3</h1>
+
+    <script>
+
+        let queryTituloID = document.querySelector("#titulo_id");
+        //console.log(queryTituloID);
+        queryTituloID.style.display = 'none';
+
+        setTimeout(() => {
+            queryTituloID.style.display = 'block';
+            setTimeout(() => {
+                queryTituloID.style.color = 'red';
+            }, 2000);
+        }, 3000);
+        // setInterval(() => {
+        //     console.log('fire');
+        // }, 1);
+
+        // let queryTituloClasse = document.querySelectorAll(".titulo_classe");
+        // console.log(queryTituloClasse[1]);
+    </script>
+</body>
+
+</html>
