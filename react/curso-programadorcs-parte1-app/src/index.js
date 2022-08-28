@@ -4,10 +4,15 @@
 const React = require("react");
 const ReactDOM = require("react-dom/client");
 
+const Banner = () => {
+  return <h1>Cassiano</h1>;
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <div>
-    <h1>Programador CS</h1>
-    <h2>Curso de React</h2>
+    <Banner />
+    {/* <h1>Programador CS</h1>
+    <h2>Curso de React</h2> */}
   </div>
 );
