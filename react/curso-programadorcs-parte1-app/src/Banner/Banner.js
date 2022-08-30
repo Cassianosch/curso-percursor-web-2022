@@ -15,10 +15,19 @@ export const Banner = (dadosUsuario) => {
     console.log(evento.target.value);
   }
 
+  if (!idade) {
+    return (
+      <div>
+        <h1 onClick={handleClicar}>Nome: {nome}</h1>
+      </div>
+    );
+  }
   return (
     <div>
-      <h1 onClick={handleClicar}>Nom3e: {nome}</h1>
-      <h3>Idade: {idade}</h3>
+      <h1 onClick={handleClicar}>Nome2: {nome}</h1>
+      {/* {idade && <h3>Idade: {idade}</h3>} */}
+      {idade ? <h3>Idade: {idade}</h3> : null}
+
       <input
         type="text"
         onKeyUp={(eventoEnviadoViaParam) =>

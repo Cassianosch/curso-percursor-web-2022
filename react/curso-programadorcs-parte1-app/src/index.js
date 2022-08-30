@@ -7,7 +7,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 const dadosUsuario = {
   nome: "Cassiano",
-  idade: 36,
+  // idade: 36,
 };
 
 root.render(
