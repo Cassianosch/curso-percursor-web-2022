@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import App from "./App";
-import Banner, { Banner2 } from "./Banner";
-import { UseState } from "./hooks/UseState";
+// import Banner, { Banner2 } from "./Banner";
+// import { UseState } from "./hooks/UseState";
+import { UseEffect } from "./hooks/UseEffect";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -15,6 +15,7 @@ root.render(
   <div>
     {/* <Banner {...dadosUsuario} /> */}
     {/* <Banner2 /> */}
-    <UseState />
+    {/* <UseState /> */}
+    <UseEffect />
   </div>
 );
