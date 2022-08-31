@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 // import App from "./App";
 import Banner, { Banner2 } from "./Banner";
+import { UseState } from "./hooks/UseState";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -12,9 +13,8 @@ const dadosUsuario = {
 
 root.render(
   <div>
-    <Banner {...dadosUsuario} />
+    {/* <Banner {...dadosUsuario} /> */}
     {/* <Banner2 /> */}
-    {/* <h1>Programador CS</h1>
-    <h2>Curso de React</h2> */}
+    <UseState />
   </div>
 );
