@@ -4,7 +4,8 @@ import ReactDOM from "react-dom/client";
 // import { UseState } from "./hooks/UseState";
 // import { UseEffect } from "./hooks/UseEffect";
 // import { UseRef } from "./hooks/UseRef";
-import { UseCallback } from "./hooks/UseCallback";
+// import { UseCallback } from "./hooks/UseCallback";
+import { UseHookMemo } from "./hooks/UseHookMemo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -20,6 +21,7 @@ root.render(
     {/* <UseState /> */}
     {/* <UseEffect /> */}
     {/* <UseRef /> */}
-    <UseCallback />
+    {/* <UseCallback /> */}
+    <UseHookMemo />
   </div>
 );
