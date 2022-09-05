@@ -6,7 +6,8 @@ import ReactDOM from "react-dom/client";
 // import { UseRef } from "./hooks/UseRef";
 // import { UseCallback } from "./hooks/UseCallback";
 // import { UseHookMemo } from "./hooks/UseHookMemo";
-import { UseHookContext } from "./hooks/UseHookContext";
+// import { UseHookContext } from "./hooks/UseHookContext";
+import { SpreadOperator } from "./components/SpreadOperator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -24,6 +25,7 @@ root.render(
     {/* <UseRef /> */}
     {/* <UseCallback /> */}
     {/* <UseHookMemo /> */}
-    <UseHookContext />
+    {/* <UseHookContext /> */}
+    <SpreadOperator />
   </div>
 );
