@@ -1,0 +1,1 @@
+export { Estilo } from "./Estilo";

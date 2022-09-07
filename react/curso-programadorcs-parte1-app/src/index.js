@@ -10,7 +10,8 @@ import { BrowserRouter } from "react-router-dom";
 // import { UseHookContext } from "./hooks/UseHookContext";
 // import { SpreadOperator } from "./components/SpreadOperator";
 // import { Formulario } from "./components/Formulario";
-import { Router } from "./components/Router";
+// import { Router } from "./components/Router";
+import { Estilo } from "./components/Estilo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -31,8 +32,9 @@ root.render(
     {/* <UseHookContext /> */}
     {/* <SpreadOperator /> */}
     {/* <Formulario /> */}
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Router />
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <Estilo />
   </div>
 );
