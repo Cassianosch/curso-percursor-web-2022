@@ -1,5 +1,6 @@
 import React from "react";
-import "./estilo.css";
+// import "./estilo.css";
+import "./estilo.scss";
 import styled from "styled-components";
 
 const Button = styled.button`
