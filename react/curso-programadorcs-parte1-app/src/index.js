@@ -8,6 +8,7 @@ import ReactDOM from "react-dom/client";
 // import { UseHookMemo } from "./hooks/UseHookMemo";
 // import { UseHookContext } from "./hooks/UseHookContext";
 import { SpreadOperator } from "./components/SpreadOperator";
+import { Formulario } from "./components/Formulario";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -26,6 +27,6 @@ root.render(
     {/* <UseCallback /> */}
     {/* <UseHookMemo /> */}
     {/* <UseHookContext /> */}
-    <SpreadOperator />
+    <Formulario />
   </div>
 );
