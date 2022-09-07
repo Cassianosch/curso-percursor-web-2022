@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 // import Banner, { Banner2 } from "./Banner";
 // import { UseState } from "./hooks/UseState";
 // import { UseEffect } from "./hooks/UseEffect";
@@ -7,8 +8,9 @@ import ReactDOM from "react-dom/client";
 // import { UseCallback } from "./hooks/UseCallback";
 // import { UseHookMemo } from "./hooks/UseHookMemo";
 // import { UseHookContext } from "./hooks/UseHookContext";
-import { SpreadOperator } from "./components/SpreadOperator";
-import { Formulario } from "./components/Formulario";
+// import { SpreadOperator } from "./components/SpreadOperator";
+// import { Formulario } from "./components/Formulario";
+import { Router } from "./components/Router";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
@@ -27,6 +29,10 @@ root.render(
     {/* <UseCallback /> */}
     {/* <UseHookMemo /> */}
     {/* <UseHookContext /> */}
-    <Formulario />
+    {/* <SpreadOperator /> */}
+    {/* <Formulario /> */}
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   </div>
 );
